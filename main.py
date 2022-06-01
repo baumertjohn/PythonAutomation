@@ -65,14 +65,12 @@ def main():
         weather_list = [value for value in weather_data["properties"]["periods"]]
         weather_message = ""
 
-        for index, day in enumerate(weather_list):
+        for index in range(len(weather_list)):
             if not weather_list[index]["isDaytime"]:
                 if weather_list[index]["temperature"] <= 39:
                     warning = " ❄❄❄"
                 else:
                     warning = ""
-                # print(f"{weather_list[index]['name']}: "
-                #       f"{weather_list[index]['temperature']}{warning}")
                 weather_message += (
                     f"{weather_list[index]['name']}: "
                     f"{weather_list[index]['temperature']}{warning}\n"
