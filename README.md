@@ -2,7 +2,7 @@
 
 ## A 100 Days of Code capstone project for Day 97 - Python Automation
 
-This project acquires a 7 day forcast from weather.gov for a given location. The data is parsed to build an overnight temperature message and the location is used to find the closest town/city to add to the message (via geonames.org).  Once this is complete, an SMS is sent with the results. The SMS message is sent via a Gmail account to the appropriate carrier "email".
+This project acquires a 7 day forecast from weather.gov for a given location. The data is parsed to build an overnight temperature message and the location is used to find the closest town/city to add to the message (via geonames.org).  Once this is complete, an SMS is sent with the results. The SMS message is sent via a Gmail account to the appropriate carrier "email".
 
 ## How To:
 
